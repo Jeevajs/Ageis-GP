@@ -1,0 +1,11 @@
+system,category,incidents,accuracy_pct,avg_latency_sec,avg_cost_usd,avg_confidence
+Phase-3: LLM + Human-in-the-loop,Application,4,25.0,0.124,0.000272,0.942
+Phase-3: LLM + Human-in-the-loop,Cloud Infrastructure,4,75.0,7.8441,0.000282,0.95
+Phase-3: LLM + Human-in-the-loop,Database,4,0.0,0.1385,0.000316,0.932
+Phase-3: LLM + Human-in-the-loop,PC Laptop,4,0.0,0.2703,0.000295,0.83
+Phase-3: LLM + Human-in-the-loop,Production Platform,4,50.0,0.1576,0.000267,0.86
+Phase-4: Full AEGIS,Application,4,25.0,0.9875,0.001338,0.942
+Phase-4: Full AEGIS,Cloud Infrastructure,4,75.0,5.3024,0.001278,0.95
+Phase-4: Full AEGIS,Database,4,0.0,0.7629,0.001456,0.932
+Phase-4: Full AEGIS,PC Laptop,4,0.0,1.7019,0.001214,0.83
+Phase-4: Full AEGIS,Production Platform,4,50.0,0.8027,0.001171,0.86

@@ -1,0 +1,21 @@
+system,incident_id,category,expected_root_cause,predicted_root_cause,match_score,correct,rca_confidence,latency_sec,input_tokens,output_tokens,cost_per_incident_usd,approval_coverage,retrieval_precision,security_score,rl_action,rl_reward,multimodal_signal_count,autonomous_status
+Phase-4: Full AEGIS,CLD-001,Cloud Infrastructure,Pod memory exhaustion,Pod memory exhaustion,1.0,1,0.95,15.8723,92,2289,0.001387,1,1.0,10,increase_memory,8.5,1,PENDING_APPROVAL
+Phase-4: Full AEGIS,CLD-002,Cloud Infrastructure,EKS node memory exhaustion,Pod memory exhaustion,0.851,1,0.95,2.8522,81,1810,0.001098,1,0.0,10,increase_memory,8.5,1,PENDING_APPROVAL
+Phase-4: Full AEGIS,CLD-003,Cloud Infrastructure,Database connection pool exhaustion,Network or downstream timeout,0.219,0,0.95,1.2052,81,2273,0.001376,1,0.0,10,increase_db_pool,8.8,2,PENDING_APPROVAL
+Phase-4: Full AEGIS,CLD-004,Cloud Infrastructure,Kafka consumer processing bottleneck,Consumer processing bottleneck,1.0,1,0.95,1.28,79,2064,0.00125,1,1.0,10,scale_service,9.0,0,PENDING_APPROVAL
+Phase-4: Full AEGIS,PC-001,PC Laptop,Endpoint resource saturation,No strong failure pattern detected,0.323,0,0.79,2.4057,82,1998,0.001211,1,0.0,10,increase_memory,8.5,1,PENDING_APPROVAL
+Phase-4: Full AEGIS,PC-002,PC Laptop,VPN authentication or certificate failure,Application exception after deployment,0.354,0,0.83,1.3051,80,1979,0.001199,1,0.0,10,rollback_deployment,9.2,0,PENDING_APPROVAL
+Phase-4: Full AEGIS,PC-003,PC Laptop,Corrupted Outlook profile,Pod memory exhaustion,0.217,0,0.75,1.6093,78,1903,0.001153,1,0.0,10,increase_memory,8.5,1,PENDING_APPROVAL
+Phase-4: Full AEGIS,PC-004,PC Laptop,Driver or kernel failure,Hardware fault detected,0.34,0,0.95,1.4875,74,2134,0.001291,1,0.0,10,restart_service,6.0,1,PENDING_APPROVAL
+Phase-4: Full AEGIS,DB-001,Database,Database connection pool exhaustion,Network or downstream timeout,0.219,0,0.95,0.7854,82,2510,0.001518,1,0.5,10,increase_db_pool,8.8,2,PENDING_APPROVAL
+Phase-4: Full AEGIS,DB-002,Database,Database deadlock,Network or downstream timeout,0.261,0,0.95,0.806,77,2293,0.001387,1,0.0,10,route_traffic_alternate_path,7.5,1,PENDING_APPROVAL
+Phase-4: Full AEGIS,DB-003,Database,Slow query or missing index,Network or downstream timeout,0.321,0,0.95,0.7461,77,2344,0.001418,1,0.0,10,route_traffic_alternate_path,7.5,1,PENDING_APPROVAL
+Phase-4: Full AEGIS,DB-004,Database,Database replication lag,Consumer processing bottleneck,0.185,0,0.88,0.7142,74,2480,0.001499,1,0.0,10,restart_service,6.0,0,PENDING_APPROVAL
+Phase-4: Full AEGIS,APP-001,Application,Application exception after deployment,Application exception after deployment,1.0,1,0.95,0.9371,78,1911,0.001158,1,1.0,10,rollback_deployment,9.2,2,PENDING_APPROVAL
+Phase-4: Full AEGIS,APP-002,Application,Checkout validation failure,Application exception after deployment,0.369,0,0.94,0.9994,80,2267,0.001372,1,0.0,10,rollback_deployment,9.2,0,PENDING_APPROVAL
+Phase-4: Full AEGIS,APP-003,Application,Authentication token validation failure,Application exception after deployment,0.468,0,0.93,1.0611,80,2053,0.001244,1,0.0,10,rollback_deployment,9.2,0,PENDING_APPROVAL
+Phase-4: Full AEGIS,APP-004,Application,Payment gateway timeout,Network or downstream timeout,0.385,0,0.95,0.9524,81,2608,0.001577,1,1.0,10,route_traffic_alternate_path,7.5,2,PENDING_APPROVAL
+Phase-4: Full AEGIS,PROD-001,Production Platform,Airflow task dependency failure,Downstream dependency latency spike,0.576,1,0.75,0.8423,80,1856,0.001126,1,0.0,10,restart_service,6.0,1,PENDING_APPROVAL
+Phase-4: Full AEGIS,PROD-002,Production Platform,Snowflake warehouse unavailable,Pod memory exhaustion,0.192,0,0.83,0.8648,86,1810,0.001099,1,0.0,10,increase_memory,8.5,0,PENDING_APPROVAL
+Phase-4: Full AEGIS,PROD-003,Production Platform,Downstream dependency failure,Downstream dependency latency spike,0.781,1,0.95,0.7319,84,1896,0.00115,1,0.0,10,restart_service,6.0,2,PENDING_APPROVAL
+Phase-4: Full AEGIS,PROD-004,Production Platform,Network latency spike,Network or downstream timeout,0.44,0,0.91,0.7717,76,2162,0.001309,1,0.5,10,route_traffic_alternate_path,7.5,2,PENDING_APPROVAL

@@ -1,0 +1,21 @@
+system,incident_id,category,expected_root_cause,predicted_root_cause,match_score,correct,rca_confidence,latency_sec,input_tokens,output_tokens,cost_per_incident_usd,approval_coverage,security_score
+Phase-3: LLM + Human-in-the-loop,CLD-001,Cloud Infrastructure,Pod memory exhaustion,Pod memory exhaustion,1.0,1,0.95,30.1996,92,419,0.000265,1,7
+Phase-3: LLM + Human-in-the-loop,CLD-002,Cloud Infrastructure,EKS node memory exhaustion,Pod memory exhaustion,0.851,1,0.95,0.7354,81,412,0.000259,1,7
+Phase-3: LLM + Human-in-the-loop,CLD-003,Cloud Infrastructure,Database connection pool exhaustion,Network or downstream timeout,0.219,0,0.95,0.21,81,488,0.000305,1,7
+Phase-3: LLM + Human-in-the-loop,CLD-004,Cloud Infrastructure,Kafka consumer processing bottleneck,Consumer processing bottleneck,1.0,1,0.95,0.2313,79,476,0.000297,1,7
+Phase-3: LLM + Human-in-the-loop,PC-001,PC Laptop,Endpoint resource saturation,No strong failure pattern detected,0.323,0,0.79,0.2522,82,524,0.000327,1,7
+Phase-3: LLM + Human-in-the-loop,PC-002,PC Laptop,VPN authentication or certificate failure,Application exception after deployment,0.354,0,0.83,0.3573,80,438,0.000275,1,7
+Phase-3: LLM + Human-in-the-loop,PC-003,PC Laptop,Corrupted Outlook profile,Pod memory exhaustion,0.217,0,0.75,0.2325,78,462,0.000289,1,7
+Phase-3: LLM + Human-in-the-loop,PC-004,PC Laptop,Driver or kernel failure,Hardware fault detected,0.34,0,0.95,0.2393,74,465,0.00029,1,7
+Phase-3: LLM + Human-in-the-loop,DB-001,Database,Database connection pool exhaustion,Network or downstream timeout,0.219,0,0.95,0.1653,82,498,0.000311,1,7
+Phase-3: LLM + Human-in-the-loop,DB-002,Database,Database deadlock,Network or downstream timeout,0.261,0,0.95,0.1373,77,484,0.000302,1,7
+Phase-3: LLM + Human-in-the-loop,DB-003,Database,Slow query or missing index,Network or downstream timeout,0.321,0,0.95,0.1267,77,520,0.000324,1,7
+Phase-3: LLM + Human-in-the-loop,DB-004,Database,Database replication lag,Consumer processing bottleneck,0.185,0,0.88,0.1248,74,526,0.000327,1,7
+Phase-3: LLM + Human-in-the-loop,APP-001,Application,Application exception after deployment,Application exception after deployment,1.0,1,0.95,0.111,78,437,0.000274,1,7
+Phase-3: LLM + Human-in-the-loop,APP-002,Application,Checkout validation failure,Application exception after deployment,0.369,0,0.94,0.1207,80,439,0.000275,1,7
+Phase-3: LLM + Human-in-the-loop,APP-003,Application,Authentication token validation failure,Application exception after deployment,0.468,0,0.93,0.1076,80,438,0.000275,1,7
+Phase-3: LLM + Human-in-the-loop,APP-004,Application,Payment gateway timeout,Network or downstream timeout,0.385,0,0.95,0.1566,81,423,0.000266,1,7
+Phase-3: LLM + Human-in-the-loop,PROD-001,Production Platform,Airflow task dependency failure,Downstream dependency latency spike,0.576,1,0.75,0.1904,80,427,0.000268,1,7
+Phase-3: LLM + Human-in-the-loop,PROD-002,Production Platform,Snowflake warehouse unavailable,Pod memory exhaustion,0.192,0,0.83,0.1742,86,416,0.000262,1,7
+Phase-3: LLM + Human-in-the-loop,PROD-003,Production Platform,Downstream dependency failure,Downstream dependency latency spike,0.781,1,0.95,0.1516,84,429,0.00027,1,7
+Phase-3: LLM + Human-in-the-loop,PROD-004,Production Platform,Network latency spike,Network or downstream timeout,0.44,0,0.91,0.1141,76,427,0.000268,1,7

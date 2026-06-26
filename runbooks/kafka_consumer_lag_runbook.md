@@ -1,0 +1,1 @@
+# Kafka Consumer Lag Runbook\nSymptoms: consumer lag, queue backlog, message delay.\nInvestigation: check replicas, partitions, downstream service latency.\nRemediation: scale consumers, rebalance partitions, fix downstream bottleneck.

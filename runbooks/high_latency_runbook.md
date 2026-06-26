@@ -1,0 +1,1 @@
+# High Latency Runbook\nSymptoms: p95 latency spike, timeout errors, downstream failures.\nInvestigation: check CPU, memory, dependency latency, recent deployment.\nRemediation: scale service, restart unhealthy pods, rollback if issue started after release.

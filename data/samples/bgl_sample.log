@@ -1,0 +1,5 @@
+1117838570 INFO RAS KERNEL instruction cache parity error corrected
+1117838571 WARNING RAS KERNEL network adapter degraded performance
+1117838572 ERROR RAS KERNEL machine check interrupt detected
+1117838573 FATAL RAS KERNEL node card is not responding
+1117838574 INFO RAS KERNEL system recovered after node restart

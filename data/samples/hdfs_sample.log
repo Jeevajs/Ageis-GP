@@ -1,0 +1,5 @@
+081109 203518 INFO dfs.DataNode: Receiving block blk_38865049064139660
+081109 203519 INFO dfs.FSNamesystem: blockMap updated for blk_38865049064139660
+081109 203520 WARN dfs.DataNode: IOException in receiveBlock Connection reset by peer
+081109 203521 ERROR dfs.DataNode: failed to replicate block blk_38865049064139660 due to timeout
+081109 203522 ERROR dfs.FSNamesystem: Under replicated block blk_38865049064139660 target=3 found=1

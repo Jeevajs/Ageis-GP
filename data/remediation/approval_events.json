@@ -1,0 +1,10 @@
+[
+  {
+    "timestamp": "2026-06-12T07:34:48.088578",
+    "incident_id": "SYN-INC-0082",
+    "action_id": "SCALE_CONSUMER",
+    "decision": "APPROVED",
+    "approver": "demo-user",
+    "notes": "Approved from UI"
+  }
+]

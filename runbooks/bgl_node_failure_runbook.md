@@ -1,0 +1,1 @@
+# BGL Node Failure Runbook\nSymptoms: node not responding, machine check interrupt, kernel fatal events.\nInvestigation: identify affected node, check kernel logs, drain workload.\nRemediation: restart node if safe, isolate faulty node, escalate to hardware team.

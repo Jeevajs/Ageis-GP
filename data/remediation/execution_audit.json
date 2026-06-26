@@ -1,0 +1,642 @@
+[
+  {
+    "timestamp": "2026-06-22T11:19:01.281340",
+    "incident_id": "RAW-INC-0001",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:08.541610",
+    "incident_id": "CLD-001",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:09.434181",
+    "incident_id": "CLD-002",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:11.277624",
+    "incident_id": "CLD-003",
+    "action": "increase_db_pool",
+    "command": "echo update DB connection pool configuration",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:12.132184",
+    "incident_id": "CLD-004",
+    "action": "scale_service",
+    "command": "echo kubectl scale deployment service-name --replicas=3",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:12.964637",
+    "incident_id": "PC-001",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:13.783499",
+    "incident_id": "PC-002",
+    "action": "rollback_deployment",
+    "command": "echo kubectl rollout undo deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:14.587033",
+    "incident_id": "PC-003",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:15.391308",
+    "incident_id": "PC-004",
+    "action": "restart_service",
+    "command": "echo kubectl rollout restart deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:16.327072",
+    "incident_id": "DB-001",
+    "action": "increase_db_pool",
+    "command": "echo update DB connection pool configuration",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:17.134177",
+    "incident_id": "DB-002",
+    "action": "route_traffic_alternate_path",
+    "command": "echo route traffic to alternate healthy path",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:18.317182",
+    "incident_id": "DB-003",
+    "action": "route_traffic_alternate_path",
+    "command": "echo route traffic to alternate healthy path",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:19.030851",
+    "incident_id": "DB-004",
+    "action": "restart_service",
+    "command": "echo kubectl rollout restart deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:19.794988",
+    "incident_id": "APP-001",
+    "action": "rollback_deployment",
+    "command": "echo kubectl rollout undo deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:20.629749",
+    "incident_id": "APP-002",
+    "action": "rollback_deployment",
+    "command": "echo kubectl rollout undo deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:21.791670",
+    "incident_id": "APP-003",
+    "action": "rollback_deployment",
+    "command": "echo kubectl rollout undo deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:22.677171",
+    "incident_id": "APP-004",
+    "action": "route_traffic_alternate_path",
+    "command": "echo route traffic to alternate healthy path",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:23.543299",
+    "incident_id": "PROD-001",
+    "action": "restart_service",
+    "command": "echo kubectl rollout restart deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:24.533828",
+    "incident_id": "PROD-002",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:25.356699",
+    "incident_id": "PROD-003",
+    "action": "rollback_deployment",
+    "command": "echo kubectl rollout undo deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:50:26.177215",
+    "incident_id": "PROD-004",
+    "action": "route_traffic_alternate_path",
+    "command": "echo route traffic to alternate healthy path",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:55:12.476735",
+    "incident_id": "RAW-INC-0001",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T11:55:13.137086",
+    "incident_id": "RAW-INC-0001",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": true,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "SIMULATION_ONLY"
+  },
+  {
+    "timestamp": "2026-06-22T12:48:52.149777",
+    "incident_id": "CLD-001",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:48:54.000889",
+    "incident_id": "CLD-002",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:48:54.928625",
+    "incident_id": "CLD-003",
+    "action": "increase_db_pool",
+    "command": "echo update DB connection pool configuration",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:48:55.800206",
+    "incident_id": "CLD-004",
+    "action": "scale_service",
+    "command": "echo kubectl scale deployment service-name --replicas=3",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:48:56.707872",
+    "incident_id": "PC-001",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:48:57.625473",
+    "incident_id": "PC-002",
+    "action": "rollback_deployment",
+    "command": "echo kubectl rollout undo deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:48:58.391874",
+    "incident_id": "PC-003",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:48:59.327852",
+    "incident_id": "PC-004",
+    "action": "restart_service",
+    "command": "echo kubectl rollout restart deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:49:00.140250",
+    "incident_id": "DB-001",
+    "action": "increase_db_pool",
+    "command": "echo update DB connection pool configuration",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:49:01.859148",
+    "incident_id": "DB-002",
+    "action": "route_traffic_alternate_path",
+    "command": "echo route traffic to alternate healthy path",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:49:02.817708",
+    "incident_id": "DB-003",
+    "action": "route_traffic_alternate_path",
+    "command": "echo route traffic to alternate healthy path",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:49:03.851310",
+    "incident_id": "DB-004",
+    "action": "restart_service",
+    "command": "echo kubectl rollout restart deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:49:04.781047",
+    "incident_id": "APP-001",
+    "action": "rollback_deployment",
+    "command": "echo kubectl rollout undo deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:49:06.143691",
+    "incident_id": "APP-002",
+    "action": "rollback_deployment",
+    "command": "echo kubectl rollout undo deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:49:09.348177",
+    "incident_id": "APP-003",
+    "action": "rollback_deployment",
+    "command": "echo kubectl rollout undo deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:49:11.103150",
+    "incident_id": "APP-004",
+    "action": "route_traffic_alternate_path",
+    "command": "echo route traffic to alternate healthy path",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:49:12.273485",
+    "incident_id": "PROD-001",
+    "action": "restart_service",
+    "command": "echo kubectl rollout restart deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:49:13.547901",
+    "incident_id": "PROD-002",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:49:14.816273",
+    "incident_id": "PROD-003",
+    "action": "restart_service",
+    "command": "echo kubectl rollout restart deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:49:17.000567",
+    "incident_id": "PROD-004",
+    "action": "route_traffic_alternate_path",
+    "command": "echo route traffic to alternate healthy path",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:54:58.961489",
+    "incident_id": "DB-003",
+    "action": "route_traffic_alternate_path",
+    "command": "echo route traffic to alternate healthy path",
+    "approved": true,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "SIMULATION_ONLY"
+  },
+  {
+    "timestamp": "2026-06-22T12:57:53.955026",
+    "incident_id": "CLD-001",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:57:57.864346",
+    "incident_id": "CLD-002",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:57:59.298330",
+    "incident_id": "CLD-003",
+    "action": "increase_db_pool",
+    "command": "echo update DB connection pool configuration",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:58:00.846178",
+    "incident_id": "CLD-004",
+    "action": "scale_service",
+    "command": "echo kubectl scale deployment service-name --replicas=3",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:58:03.496820",
+    "incident_id": "PC-001",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:58:05.161184",
+    "incident_id": "PC-002",
+    "action": "rollback_deployment",
+    "command": "echo kubectl rollout undo deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:58:06.990297",
+    "incident_id": "PC-003",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:58:08.760448",
+    "incident_id": "PC-004",
+    "action": "restart_service",
+    "command": "echo kubectl rollout restart deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:58:09.714721",
+    "incident_id": "DB-001",
+    "action": "increase_db_pool",
+    "command": "echo update DB connection pool configuration",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:58:10.619169",
+    "incident_id": "DB-002",
+    "action": "route_traffic_alternate_path",
+    "command": "echo route traffic to alternate healthy path",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:58:11.531934",
+    "incident_id": "DB-003",
+    "action": "route_traffic_alternate_path",
+    "command": "echo route traffic to alternate healthy path",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:58:12.363077",
+    "incident_id": "DB-004",
+    "action": "restart_service",
+    "command": "echo kubectl rollout restart deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:58:13.383685",
+    "incident_id": "APP-001",
+    "action": "rollback_deployment",
+    "command": "echo kubectl rollout undo deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:58:14.527697",
+    "incident_id": "APP-002",
+    "action": "rollback_deployment",
+    "command": "echo kubectl rollout undo deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:58:15.706507",
+    "incident_id": "APP-003",
+    "action": "rollback_deployment",
+    "command": "echo kubectl rollout undo deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:58:16.808633",
+    "incident_id": "APP-004",
+    "action": "route_traffic_alternate_path",
+    "command": "echo route traffic to alternate healthy path",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:58:17.844177",
+    "incident_id": "PROD-001",
+    "action": "restart_service",
+    "command": "echo kubectl rollout restart deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:58:18.907654",
+    "incident_id": "PROD-002",
+    "action": "increase_memory",
+    "command": "echo update memory limit in deployment manifest",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:58:19.798965",
+    "incident_id": "PROD-003",
+    "action": "restart_service",
+    "command": "echo kubectl rollout restart deployment/service-name",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  },
+  {
+    "timestamp": "2026-06-22T12:58:20.676101",
+    "incident_id": "PROD-004",
+    "action": "route_traffic_alternate_path",
+    "command": "echo route traffic to alternate healthy path",
+    "approved": false,
+    "real_execution_enabled": false,
+    "executed": false,
+    "status": "PENDING_APPROVAL"
+  }
+]

@@ -1,0 +1,1 @@
+# HDFS Replication Runbook\nSymptoms: under replicated blocks, DataNode failures, replication timeout.\nInvestigation: check DataNode health, NameNode block report, disk availability, network between nodes.\nRemediation: restart unhealthy DataNode after approval, trigger block re-replication, replace failed disk or node.

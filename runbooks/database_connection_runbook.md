@@ -1,0 +1,1 @@
+# Database Connection Runbook\nSymptoms: connection pool exhausted, JDBC timeout, slow queries.\nInvestigation: check active DB connections, slow queries, pool config, DB CPU.\nRemediation: increase pool temporarily, kill stale sessions, optimize slow queries.

@@ -1,0 +1,3 @@
+phase,total_incidents,rca_accuracy_pct,avg_latency_sec,min_latency_sec,max_latency_sec,avg_cost_per_incident_usd,projected_monthly_cost_100_incidents_per_day_usd,approval_coverage_pct,avg_security_score,avg_rca_confidence,avg_retrieval_precision
+Phase-3: LLM + Human-in-the-loop,20,30.0,1.7069,0.1076,30.1996,0.000286,0.8594,100.0,7.0,0.903,
+Phase-4: Full AEGIS,20,30.0,1.9115,0.7142,15.8723,0.001291,3.8733,100.0,10.0,0.903,0.25
